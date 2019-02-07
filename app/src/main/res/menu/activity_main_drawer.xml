@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+
+            android:title="@string/fragment_home" />
+
+        <item
+            android:id="@+id/nav_institutions"
+            android:icon="@drawable/health_institution"
+            android:title="@string/fragment_institutions" />
+        <item
+            android:id="@+id/nav_phsysicians"
+            android:icon="@drawable/doctor"
+            android:title="@string/fragment_physicians" />
+
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/exam"
+            android:title="@string/fragment_exams" />
+        <!--
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/timeline"
+            android:title="@string/fragment_timeline" />
+            -->
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/pills"
+            android:title="@string/medicines" />
+
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/sync"
+            android:title="@string/synchronize" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

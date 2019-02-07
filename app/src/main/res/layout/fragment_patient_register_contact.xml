@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".patient.patientRegister.PatientRegisterContactView"
+             android:id="@+id/pacientRegisterContact"
+             android:background="#ecf0f1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:weightSum="1"
+        android:baselineAligned="false">
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="225dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/almostDone"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <Spinner android:id="@+id/stateSpinner"
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:layout_marginBottom="16dp"
+                 android:ems="10"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/postalCodeEditText"
+                style="@style/EditText"
+                android:hint="@string/postalCodeEditText"
+                android:inputType="textPostalAddress"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/streetEditText"
+                style="@style/EditText"
+                android:hint="@string/streetEditText"
+                android:inputType="textPersonName"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/neighborhoodEditText"
+                style="@style/EditText"
+                android:hint="@string/neighborhoodEditText"
+                android:inputType="textPersonName"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cityEditText"
+                style="@style/EditText"
+                android:hint="@string/cityEditText"
+                android:inputType="textPersonName"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/houseNumberEditText"
+                style="@style/EditText"
+                android:hint="@string/contactNumberEditText"
+                android:inputType="textPersonName"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/telephoneEditText"
+                style="@style/EditText"
+                android:hint="@string/telephoneEditText"
+                android:inputType="phone"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.24"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/buttonContactBack"
+                style="@style/NormalButton"
+                android:text="@string/back">
+            </Button>
+
+            <Button
+                android:id="@+id/buttonContactNext"
+                style="@style/NormalButton"
+                android:text="@string/next">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:title="@string/contact"/>
+
+
+</FrameLayout>

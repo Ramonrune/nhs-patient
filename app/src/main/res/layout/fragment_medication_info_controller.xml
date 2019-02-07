@@ -1,0 +1,184 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthsystemapp.com.example.tcc.healthsystemapp.medication.register.RegisterMedicationController">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="16dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:enabled="false"
+                        android:id="@+id/medicineNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/medicineNameEditText" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <CheckBox
+                    android:id="@+id/rememberCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/remember"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18sp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:gravity="left|center"
+                    android:layoutDirection="rtl"
+                    android:paddingTop="20dp"
+
+                    android:text="@string/quantityPerDay"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/frequencySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/quantityPerDay" />
+
+                <TextView
+                    android:paddingTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:gravity="left|center"
+                    android:layoutDirection="rtl"
+                    android:text="@string/startTime"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18sp" />
+
+                <TimePicker
+                    android:id="@+id/startTimeTimePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="spinner" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scheduleDays"
+                    android:textColor="#7f8c8d"
+                    android:textSize="18sp" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="4"
+                    android:orientation="horizontal"
+                    android:rowCount="4">
+
+                    <CheckBox
+                        android:id="@+id/sundayCheckBox"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="2"
+                        android:checked="true"
+                        android:text="@string/sunday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                    <CheckBox
+                        android:id="@+id/mondayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/monday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                    <CheckBox
+                        android:id="@+id/tuesdayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="2"
+
+                        android:checked="true"
+                        android:text="@string/tuesday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                    <CheckBox
+                        android:id="@+id/wednesdayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/wednesday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                    <CheckBox
+                        android:id="@+id/thursdayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_columnSpan="2"
+                        android:checked="true"
+                        android:text="@string/thursday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+
+                    <CheckBox
+                        android:id="@+id/fridayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/friday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                    <CheckBox
+                        android:id="@+id/saturdayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_columnSpan="2"
+                        android:checked="true"
+                        android:text="@string/saturday"
+                        android:textColor="#7f8c8d"
+                        android:textSize="18dp" />
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

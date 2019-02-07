@@ -1,0 +1,169 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".patient.patientRegister.PatientRegisterView"
+             android:id="@+id/pacientRegister"
+             android:background="#ecf0f1">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:title="@string/personalInformations"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="225dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/healthhands"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="match_parent"
+                    style="@style/EditText"
+                    android:hint="@string/nameEdiText"
+                    android:inputType="textPersonName"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="318dp"
+                android:layout_height="53dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    style="@style/RadioButton"
+                    android:text="@string/maleRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    style="@style/RadioButton"
+                    android:text="@string/femaleRadioButton"/>
+
+                <RadioButton
+                    android:id="@+id/otherRadioButton"
+                    style="@style/RadioButton"
+                    android:layout_weight="0.08"
+                    android:text="@string/otherRadioButton"/>
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/birthdayEditText"
+                    style="@style/EditText"
+                    android:focusable="false"
+                    android:hint="@string/birthdayEditText"
+                    android:inputType="date"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                style="@style/EditText"
+                android:hint="@string/email_editText"
+                android:inputType="textEmailAddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/countrySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/identifyNumberEditTextFS"
+                    style="@style/EditText"
+                    android:hint="@string/identityNumber"
+                    android:inputType="textPostalAddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/identifyNumberEditText"
+                    style="@style/EditText"
+                    android:hint="@string/identityNumber"
+                    android:inputType="textPostalAddress" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <Button
+                    android:id="@+id/buttonBack"
+                    style="@style/NormalButton"
+                    android:text="@string/back">
+                </Button>
+
+                <Button
+                    android:id="@+id/buttonNext"
+                    style="@style/NormalButton"
+                    android:text="@string/next">
+                </Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

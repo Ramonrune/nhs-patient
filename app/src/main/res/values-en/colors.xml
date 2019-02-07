@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App colors. -->
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#007ac1</color>
+    <color name="colorAccent">#007ac1</color>
+
+    <!-- Buttons colors. -->
+    <color name="white">#FFFAFA</color>
+
+    <!-- Skin colors. -->
+    <color name="vonLuschan1">#f4f2f5</color>
+    <color name="vonLuschan2">#ecebe9</color>
+    <color name="vonLuschan3">#faf9f7</color>
+    <color name="vonLuschan4">#fdfbe6</color>
+    <color name="vonLuschan5">#fdf6e6</color>
+    <color name="vonLuschan6">#fef7e5</color>
+    <color name="vonLuschan7">#faf0ef</color>
+    <color name="vonLuschan8">#f3eae5</color>
+    <color name="vonLuschan9">#f4f1ea</color>
+    <color name="vonLuschan10">#fbfcf4</color>
+    <color name="vonLuschan11">#fcf8ed</color>
+    <color name="vonLuschan12">#fef6e1</color>
+    <color name="vonLuschan13">#fff9e1</color>
+    <color name="vonLuschan14">#fff9e1</color>
+    <color name="vonLuschan15">#f1e7c3</color>
+    <color name="vonLuschan16">#efe2ad</color>
+    <color name="vonLuschan17">#e0d293</color>
+    <color name="vonLuschan18">#f2e297</color>
+    <color name="vonLuschan19">#ebd69f</color>
+    <color name="vonLuschan20">#ebd985</color>
+    <color name="vonLuschan21">#e3c467</color>
+    <color name="vonLuschan22">#e1c16a</color>
+    <color name="vonLuschan23">#dfc17b</color>
+    <color name="vonLuschan24">#deb877</color>
+    <color name="vonLuschan25">#c7a464</color>
+    <color name="vonLuschan26">#bc9762</color>
+    <color name="vonLuschan27">#9c6b43</color>
+    <color name="vonLuschan28">#8e583e</color>
+    <color name="vonLuschan29">#794d30</color>
+    <color name="vonLuschan30">#643116</color>
+    <color name="vonLuschan31">#653020</color>
+    <color name="vonLuschan32">#603121</color>
+    <color name="vonLuschan33">#603121</color>
+    <color name="vonLuschan34">#402015</color>
+    <color name="vonLuschan35">#312529</color>
+    <color name="vonLuschan36">#1b1c2e</color>
+</resources>
