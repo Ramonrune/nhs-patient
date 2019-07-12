@@ -25,7 +25,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBvd3Lh7LOeEM7fM1chIR2C5GA2DKjC6_E" />
+            android:value="" />
 
         <receiver android:name=".medication.service.MedicationRebootService">
             <intent-filter>
