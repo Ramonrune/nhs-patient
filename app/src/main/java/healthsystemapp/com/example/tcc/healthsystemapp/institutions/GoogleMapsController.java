@@ -24,7 +24,7 @@ public class GoogleMapsController extends Fragment implements OnMapReadyCallback
 
     private MapView mapView;
     private GoogleMap gmap;
-    private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyBvd3Lh7LOeEM7fM1chIR2C5GA2DKjC6_E";
+    private static final String MAP_VIEW_BUNDLE_KEY = "";
 
 
     public GoogleMapsController() {
