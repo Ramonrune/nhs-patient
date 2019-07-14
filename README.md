@@ -27,7 +27,7 @@ Diversos requisitos foram coletados de forma dinâmica com as equipes sul africa
 Todo o desenvolvimento do sistema se voltou para agregar valor aos processos e interfaces de usuário (se focando em facilidade de uso e experiencia de usuário).
 Os resultados foram dois aplicativos publicados na Google Play e um sistema computadorizado, sendo que os três estão em fase de testes na África do Sul.
 Conclui-se que o sistema poderá auxiliar muito no ambiente da saúde, facilitando a gestão, fornecendo processos inteligentes e uma maior agilidade no atendimento, permitindo com que pacientes possuam acesso a seus dados de saúde, e com que funcionários de saúde possuam uma maior facilidade e uma maior quantidade de dados relevantes para análise durante os atendimentos.
-<br><br>
+
 ```
 O Aplicativo do paciente é um aplicativo voltado para o uso do paciente. Para poder usá-lo, primeiramente, é necessário baixá-lo na Google play e então instalar em seu dispositivo móvel.
 
